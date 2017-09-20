@@ -40,5 +40,5 @@ hadoop fs -rm /bigdata/arq1
 
 Baixar um arquivo
 ```shell
-hadoop fs -rm /bigdata/arq1
+hadoop fs -get /bigdata/arq1
 ```

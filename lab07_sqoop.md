@@ -7,7 +7,7 @@ Vamos logar com o usuário hdfs
 su - hdfs
 ```
 
-Agora, vamos importar todo o database para o Hive, esse procedimento pode demorar um pouco por conta do nosso ambiente não está paralelizado
+Agora, vamos importar todo o database para o Hive, esse procedimento vai demorar um pouco mais. Nosso ambiente é um composto de apenas um unico servidor. Na prática este processo pode ser paralelizado.
 ```
 sqoop import-all-tables \
     -m 1 \

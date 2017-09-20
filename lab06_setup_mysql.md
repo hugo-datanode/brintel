@@ -64,7 +64,7 @@ Para sair do MySQl
 exit
 ```
 
-Agora precisamos configurar o driver para MySQL para o sqoop, para isso vamos baixar o driver jdbc e instalar no diretório do sqoop
+Agora precisamos configurar o driver do MySQL para o sqoop, para isso vamos baixar o driver jdbc e instalar no diretório do sqoop
 
 ```
 mkdir -p /opt/mariadb

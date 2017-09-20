@@ -4,6 +4,7 @@ O HDFS é o componente do Hadoop responsável pelo armazenamento distribuído do
 Vamos acessar o ambiente pelo SSH, conforme descrito no laboratório 01
 
 Como no Linux, o HDFS possui um usuário administrador capaz de realizar todas as atividades. Vamos interagir com a plataforma através deste usuário: hdfs
+
 Para logar com usuário hdfs:
 
 ```shell

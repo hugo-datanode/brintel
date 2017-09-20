@@ -130,7 +130,12 @@ quit
 ```
 impala-shell
 ```
-
+```
+invalidate metadata
+```
+```
+show tables
+```
 ```
 select * from zipcode_hbase limit 4
 ```

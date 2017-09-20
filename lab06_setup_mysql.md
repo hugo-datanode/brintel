@@ -1,3 +1,5 @@
+# Configuração do banco de dados de exemplo
+
 Vamos aprender a carregar dados a partir de uma base de dados relacional, para esse exemplo vamos utilizar uma instância do MySQL
 
 Precisamos conectar com o usuário root para realizar as configurações do MySQL

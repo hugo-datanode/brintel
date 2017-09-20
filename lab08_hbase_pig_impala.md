@@ -128,7 +128,7 @@ quit
 # Agora pelo Impala, vamos realizar uma consulta aos dados
 
 ```
-imapala-shell
+impala-shell
 ```
 
 ```

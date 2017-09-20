@@ -3,12 +3,12 @@
 O primeiro passo é obter chave de acesso privada .pem, com ela você poderá acessar o ambiente remoto para o treinamento com um cliente ssh
 
 ```shell
-ssh root@ec2-XXX-XXX-XXX-XXX.compute-1.amazonaws.com -i brintel.pem
+ssh root@ec2-XXX-XXX-XXX-XXX.compute-1.amazonaws.com -i brintell.pem
 ```
 
 Caso esteja utilizando o Linux para realizar o acesso remoto, será necessário alterar as propriedades de permissões do arquivo .pem
 ```shell
-chmod 400 /home/usuario/brintel.pem
+chmod 400 /home/usuario/brintell.pem
 ```
 
 # Configuração inicial de implantação do Hadoop

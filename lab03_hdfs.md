@@ -25,7 +25,7 @@ hadoop fs -mkdir /bigdata
 
 Criar um arquivo vazio, para teste
 ```shell
-hadoop fs -cp /bigdata/arq1
+hadoop fs -touchz /bigdata/arq1
 ```
 
 Copiar arquivos 

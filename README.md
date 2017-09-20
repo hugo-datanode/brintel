@@ -1,2 +1,2 @@
 # Brintell
-Laboratório de treinamento BRINTEL
+Laboratório de treinamento BRINTELL

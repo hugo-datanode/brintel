@@ -13,7 +13,11 @@ Vamos instalar uma instância do MySQL
 ```
 yum install mariadb mariadb-server
 ```
+Vamos iniciar o serviço do banco
 
+```
+service mariadb start
+```
 Vamos configurar a instância com a senha 12345678
 
 ```

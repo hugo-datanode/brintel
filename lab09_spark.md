@@ -35,7 +35,7 @@ Vamos executar um programa simples para realizar a contagem de palavras a partir
 
 Vamos carregar um arquivo para uma variável
 ```
-val arquivo = sc.textFile("hdfs://ip-172-31-26-14.ec2.internal:8020/data/wordcount.txt")
+val arquivo = sc.textFile("hdfs://ip-XXX-XXX-XXX-XXX.ec2.internal:8020/data/wordcount.txt")
 ```
 
 Vamos realizar o MapReduce em uma única linha
@@ -45,7 +45,7 @@ val counts = arquivo.flatMap(line => line.split(" ")).map(word => (word, 1)).red
 
 Vamos salvar o resultado em um arquivo
 ```
-counts.saveAsTextFile("hdfs://ip-172-31-26-14.ec2.internal:8020/data/spark")
+counts.saveAsTextFile("hdfs://ip-XXX-XXX-XXX-XXX.ec2.internal:8020/data/spark")
 ```
 
 Para sair do Spark (Scala)
